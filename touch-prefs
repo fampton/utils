@@ -1,0 +1,8 @@
+#!/bin/bash
+synclient RightButtonAreaTop=0 
+synclient RightButtonAreaLeft=0
+synclient TapButton1=0 
+synclient TapButton2=0 
+synclient TapButton3=0 
+synclient VertTwoFingerScroll=1
+
