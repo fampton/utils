@@ -28,6 +28,6 @@ for row in rows:
     mymagnet = magnet_cell.findChildren('a')[1]
     size = row.findChildren('font', class_='detDesc')[0].text.split(',')[1]
     se, le = row.findChildren('td')[-2:]
-    print title, "".join(mymagnet['href'].split('&')[0:2]),size,'SE',se.text,'LE',le.text
+    print title, "".join(mymagnet['href'].split('&')[0]),size,'SE',se.text,'LE',le.text
   except:
     pass
